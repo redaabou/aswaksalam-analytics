@@ -16,9 +16,11 @@ body{
 form{
     background-color: #ffffff;
     width: 40%;
+    height: 25em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 form div{
     padding: 1em 0 1em 0;
@@ -27,7 +29,19 @@ label{
     display: block;
     margin-bottom: 1em;
 }
+input{
+    width: 20em;
+    border-radius: 15px;
+    border: ;
+}
 img{
     background-color: #F2EEEB;
-    height: 20em;
+    height: 25em;
+}
+button{
+    background-color: #2F67A3;
+    width: 11em;
+    border: 1px solid;
+    border-radius: 15px;
+    outline: none;
 }

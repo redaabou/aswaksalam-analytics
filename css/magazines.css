@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-img-top{
+   min-width: 200px;
+}
+.subTitre{
+    margin: 50px 0px 50px 0px;
+}
+.cardHorizontal{
+    width: 100%;
+    height: 200px;
+}
+.imageHorizontal{
+    max-width: 50%;
+}
+.imageVeritical{
+    height: 150px;
+}
+.allCardV{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}
+.bodyCard{
+    padding-block: 20px;
+}
+

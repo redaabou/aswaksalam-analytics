@@ -1,6 +1,6 @@
-const arrAllMagazins = JSON.parse(localStorage.getItem("magazins"))
+let arrAllMagazins = JSON.parse(localStorage.getItem("magazins"))
 console.log(arrAllMagazins)
-
+ arrAllMagazins = arrAllMagazins.reverse()
 let pageConvert = false
 const row = document.querySelector(".row")
 
@@ -60,3 +60,7 @@ const go = (x) =>{
    const getOneMagazin = arrAllMagazins.find(item => item.name == x)
    localStorage.setItem("getOneMagazin" , JSON.stringify(getOneMagazin))
 }
+
+document.querySelector(".addMagazin").addEventListener("click" , ()=>{
+  window.location.href = "magazinForm.html"
+})

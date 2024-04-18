@@ -18,6 +18,9 @@
 .imageVeritical{
     height: 150px;
 }
+.card{
+    cursor: pointer;
+}
 .allCardV{
     padding: 0;
     margin: 0;
@@ -27,3 +30,6 @@
     padding-block: 20px;
 }
 
+.deconnexion{
+    width: 100%;
+}

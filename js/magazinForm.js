@@ -45,8 +45,7 @@ function changeQuartieMagazin(e){
         alert("name already exist")
         return;
       }
-    
-      if(getMagazins){
+    if(getMagazins){
          
         magazinArray = [...getMagazins , magazinObject]
     }else{
@@ -54,4 +53,5 @@ function changeQuartieMagazin(e){
     }
     console.log(magazinArray)
     localStorage.setItem("magazins", JSON.stringify(magazinArray))
+    window.location.href = "magazins.html"
 }
